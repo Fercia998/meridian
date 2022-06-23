@@ -6,7 +6,6 @@
 .Piscine{
     width: 70vw;
     height: 90vh;
-    background-image: url(/Image\ d\'acceuil.png);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -21,8 +20,8 @@ section{
      margin-top:20px;
 }
 .Fercia{
-    margin-top:3rem; 
-     margin-left: 1rem;
+    margin-top:2rem;
+     width: 100px;
 }
 .Erouane{
     opacity: 70%;
@@ -73,6 +72,28 @@ section{
 .lleny:hover{
     background-color: greenyellow;
 }
+.loulou{
+    height: 2rem; 
+    width: 100px; 
+    border: 2px solid black;
+    background-color: transparent; 
+}
+.loulou:hover{
+    background-color: pink;
+}
+.fefe{
+    height:50px; width:100px;font-family: 'Poppins', sans-serif; font-size: 1rem; background-color: transparent; border: 2px solid black; margin-top :4.4rem;">
+}
+.fefe:hover{
+    background-color: aquamarine;
+}
+.gabin{
+    font-family: 'Poppins', sans-serif;margin-top: 20px;height: 40px; width: 100px; border: 2px solid black; background-color: transparent;
+}
+.gabin:hover{
+    background-color: black;
+}
+
 .gradient{
     width: 200px;
     height: 110px;
@@ -82,4 +103,24 @@ section{
     filter: blur(38px);
     background: rgb(255,248,90);
     background: radial-gradient(circle, rgb(90, 255, 255) 0%, rgba(0,194,255,1) 80%, rgba(255,2,169,0.9547991071428571) 100%);
+}
+.pointer{
+    cursor: pointer;
+}
+.mine{
+    height: 25px;width: 30px; border: 1px solid rgba(0, 0, 0, 0.521); background-color: transparent; margin-left: 1rem;
+}
+.mine:hover{
+    background-color: black;
+}
+.input{
+    border: none;
+    outline: none;
+    text-align: center;
+    background-color: transparent;
+    width: 97%;
+    font-family: 'Poppins', sans-serif;font-size: 15px;
+}
+.input::placeholder{
+    color: black;
 }
