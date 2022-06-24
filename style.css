@@ -99,7 +99,7 @@ section{
     height: 110px;
     transform: rotate(-30deg);
     border-radius: 50px;
-    opacity: .45;
+    opacity: .20;
     filter: blur(38px);
     background: rgb(255,248,90);
     background: radial-gradient(circle, rgb(90, 255, 255) 0%, rgba(0,194,255,1) 80%, rgba(255,2,169,0.9547991071428571) 100%);
@@ -123,4 +123,7 @@ section{
 }
 .input::placeholder{
     color: black;
+}
+.hey{
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.507);
 }
